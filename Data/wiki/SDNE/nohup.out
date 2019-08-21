@@ -1,0 +1,118 @@
+OMP: Info #209: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #207: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31}
+OMP: Info #156: KMP_AFFINITY: 32 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 2 packages x 8 cores/pkg x 2 threads/core (16 total cores)
+OMP: Info #211: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 16 maps to package 0 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 18 maps to package 0 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 0 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 20 maps to package 0 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 0 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 22 maps to package 0 core 3 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 8 maps to package 0 core 4 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 24 maps to package 0 core 4 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 10 maps to package 0 core 5 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 26 maps to package 0 core 5 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 12 maps to package 0 core 6 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 28 maps to package 0 core 6 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 14 maps to package 0 core 7 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 30 maps to package 0 core 7 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 1 core 0 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 17 maps to package 1 core 0 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 1 core 1 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 19 maps to package 1 core 1 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 1 core 2 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 21 maps to package 1 core 2 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 1 core 3 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 23 maps to package 1 core 3 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 9 maps to package 1 core 4 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 25 maps to package 1 core 4 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 11 maps to package 1 core 5 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 27 maps to package 1 core 5 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 13 maps to package 1 core 6 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 29 maps to package 1 core 6 thread 1 
+OMP: Info #171: KMP_AFFINITY: OS proc 15 maps to package 1 core 7 thread 0 
+OMP: Info #171: KMP_AFFINITY: OS proc 31 maps to package 1 core 7 thread 1 
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 328 thread 0 bound to OS proc set {0}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 334 thread 2 bound to OS proc set {4}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 333 thread 1 bound to OS proc set {2}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 336 thread 4 bound to OS proc set {8}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 335 thread 3 bound to OS proc set {6}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 337 thread 5 bound to OS proc set {10}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 338 thread 6 bound to OS proc set {12}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 340 thread 8 bound to OS proc set {1}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 341 thread 9 bound to OS proc set {3}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 339 thread 7 bound to OS proc set {14}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 343 thread 11 bound to OS proc set {7}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 342 thread 10 bound to OS proc set {5}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 344 thread 12 bound to OS proc set {9}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 345 thread 13 bound to OS proc set {11}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 346 thread 14 bound to OS proc set {13}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 347 thread 15 bound to OS proc set {15}
+WARNING: Logging before flag parsing goes to stderr.
+W0808 13:52:51.511786 140048845014848 deprecation.py:506] From /export/App/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+W0808 13:52:51.623903 140048845014848 deprecation.py:323] From /export/App/anaconda3/lib/python3.7/site-packages/ge-0.0.0-py3.7.egg/ge/models/sdne.py:48: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.cast` instead.
+2019-08-08 13:52:52.507604: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2019-08-08 13:52:52.512242: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2599980000 Hz
+2019-08-08 13:52:52.512349: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x558ad06749a0 executing computations on platform Host. Devices:
+2019-08-08 13:52:52.512362: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+2019-08-08 13:52:52.512457: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 2. Tune using inter_op_parallelism_threads for best performance.
+2019-08-08 13:52:52.532253: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 355 thread 16 bound to OS proc set {16}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 359 thread 18 bound to OS proc set {20}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 360 thread 19 bound to OS proc set {22}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 358 thread 17 bound to OS proc set {18}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 361 thread 20 bound to OS proc set {24}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 362 thread 21 bound to OS proc set {26}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 364 thread 23 bound to OS proc set {30}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 363 thread 22 bound to OS proc set {28}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 365 thread 24 bound to OS proc set {17}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 366 thread 25 bound to OS proc set {19}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 367 thread 26 bound to OS proc set {21}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 368 thread 27 bound to OS proc set {23}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 369 thread 28 bound to OS proc set {25}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 370 thread 29 bound to OS proc set {27}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 371 thread 30 bound to OS proc set {29}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 372 thread 31 bound to OS proc set {31}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 373 thread 32 bound to OS proc set {0}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 356 thread 33 bound to OS proc set {2}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 375 thread 35 bound to OS proc set {6}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 374 thread 34 bound to OS proc set {4}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 376 thread 36 bound to OS proc set {8}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 378 thread 38 bound to OS proc set {12}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 377 thread 37 bound to OS proc set {10}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 380 thread 40 bound to OS proc set {1}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 379 thread 39 bound to OS proc set {14}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 381 thread 41 bound to OS proc set {3}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 382 thread 42 bound to OS proc set {5}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 383 thread 43 bound to OS proc set {7}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 384 thread 44 bound to OS proc set {9}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 385 thread 45 bound to OS proc set {11}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 386 thread 46 bound to OS proc set {13}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 388 thread 48 bound to OS proc set {16}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 387 thread 47 bound to OS proc set {15}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 391 thread 50 bound to OS proc set {20}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 390 thread 49 bound to OS proc set {18}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 392 thread 51 bound to OS proc set {22}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 393 thread 52 bound to OS proc set {24}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 394 thread 53 bound to OS proc set {26}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 395 thread 54 bound to OS proc set {28}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 396 thread 55 bound to OS proc set {30}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 397 thread 56 bound to OS proc set {17}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 398 thread 57 bound to OS proc set {19}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 399 thread 58 bound to OS proc set {21}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 400 thread 59 bound to OS proc set {23}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 401 thread 60 bound to OS proc set {25}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 405 thread 64 bound to OS proc set {0}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 402 thread 61 bound to OS proc set {27}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 403 thread 62 bound to OS proc set {29}
+OMP: Info #247: KMP_AFFINITY: pid 328 tid 404 thread 63 bound to OS proc set {31}
