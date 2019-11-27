@@ -30,3 +30,11 @@ class EigenMap():
         L = D - A_
         u, s, vt = slin.svds(L.astype(float), k=self.emb_dim, which='LM')
         return u, vt
+    def build_adj(self):
+        A = nx.to_scipy_sparse_matrix(self.graph)
+        rows, cols = A.nonzero()
+        A_ = A.copy()
+        A_[cols, rows] = A[rows, cols]
+        A_ = A_.toarray()
+        u, s, vt = slin.svds(A_.astype(float), k=self.emb_dim, which='LM')
+        return u, vt

@@ -1,0 +1,12 @@
+link prediction metrics: AUC_ROC : 0.9346, AUC_PR : 0.9510:
+============== testing ===============
+link prediction metrics: AUC_ROC : 0.9467, AUC_PR : 0.9613
+============== testing ===============
+link prediction metrics: AUC_ROC : 0.9342, AUC_PR : 0.9528
+
+============== testing ===============
+link prediction metrics: AUC_ROC : 0.9346, AUC_PR : 0.9510
+============== testing ===============
+link prediction metrics: AUC_ROC : 0.9467, AUC_PR : 0.9613
+============== testing ===============
+link prediction metrics: AUC_ROC : 0.9342, AUC_PR : 0.9528

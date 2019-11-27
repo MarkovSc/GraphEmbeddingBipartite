@@ -6,7 +6,7 @@ import networkx as nx
 from networkx.algorithms import bipartite
 from EigenMap import EigenMap
 
-def read_edge_weight(file, sep='\t'):
+def read_edge_weight(file, sep = '\t', weighted = True):
     graph_data=dict()
     nodes_first = set()
     nodes_second = set()
@@ -28,11 +28,14 @@ def read_edge_weight(file, sep='\t'):
     G.add_nodes_from([index + len(nodes_first) for index in range(len(nodes_second))], bipartite=1)
 
     for l in weight_edges:
-        G.add_edge(node2index[l[0]], node2index[l[1]], weight = int(l[2]))
+        if weighted:
+            G.add_edge(node2index[l[0]], node2index[l[1]], weight = int(l[2]))
+        else:
+            G.add_edge(node2index[l[0]], node2index[l[1]])
     return nodes_first, nodes_second, node2index, G
 
 if __name__ == "__main__":
-    node_first, node_second, node2index, G = read_edge_weight("../Data/wiki/rating_train.dat")
+    node_first, node_second, node2index, G = read_edge_weight("../Data/wiki/rating_train.dat", weighted = False)
     node_first_index = [node2index[node] for node in list(node_first)]
     node_second_index = [node2index[node] for node in list(node_second)]
 
